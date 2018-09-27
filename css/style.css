@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #DEE4EC;
+}
+
+.container {
+    background: url(../images/background.jpg) 0 0 no-repeat;
+    background-position: center;
+    height: 4675px;
+    width: 100%;
+
+}
+
+#crazy-boy {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -80px;
+    margin: auto;
+    background: url(../images/crazy_boy.png) 0 0 no-repeat;
+    width: 71px;
+    height: 80px;
+    background-size: 216px 240px;
+    transition: top 1s ease;
+}
+
+.animate {
+    animation: move 1s steps(3) infinite;
+}
+
+@keyframes move {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: -216px;
+    }
+}
+
+@keyframes jump {
+    from {
+        background-position-y: 0;
+    }
+    to {
+        background-position-y: -240px;
+    }
+}
