@@ -61,6 +61,7 @@ window.onscroll = function (e) {
         div.style.height = '80px'
         div.style.backgroundPosition = '0px -162px';
         div.style.top = '800px'
+        
     }
     // else if (document.body.scrollTop > 890  || document.documentElement.scrollTop > 890) {
     //     div.style.width = '70px'
